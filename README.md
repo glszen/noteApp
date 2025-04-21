@@ -1,12 +1,23 @@
-# React + Vite
+# Note App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to add notes, search through them, and assign a custom color to each note.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Notes**: Users can add notes with a custom text and color.
+- **Color Picker**: Each note can have a unique color selected by the user.
+- **Search Notes**: Users can search through the notes by entering keywords.
+- **Display Notes**: Notes are displayed with their assigned colors in a responsive grid layout.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: For building the user interface.
+- **Material-UI**: For modern and responsive UI components.
+- **Bootstrap**: For responsive design and layout.
+- **CSS**: For additional styling.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/note-app.git
