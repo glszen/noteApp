@@ -2,6 +2,10 @@
 
 A simple React application that allows users to add notes, search through them, and assign a custom color to each note.
 
+## LIVE
+
+https://noteapp-1.netlify.app/
+
 ## Features
 
 - **Add Notes**: Users can add notes with a custom text and color.
