@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to right bottom, #eabbf0, #c4f299); /* Arka plan gradyanı */
+  }
+  
+  .container {
+      width: 50%;
+      height: auto;
+      margin: 141px auto; /* Üstte 20px boşluk ekler */
+      padding: 20px;
+      background: linear-gradient(
+        to right bottom,
+        rgba(255, 184, 142, 0.44),
+        rgba(255, 255, 255, 0.6)  ); /* Container için gradyan */
+      border: rgba(240, 240, 240, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      color: #fff;
+  }
+  
+  .welcome{
+    width: 65%;
+    height: 15vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: rgba(234, 87, 83, 0.7);
+    box-shadow: 0 7px 2rem #ea5753;
+    border-radius: 0.8rem;
+  
+  }
+  
+  .mulish {
+      font-family: "Mulish", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    .wtext1 {
+      font-weight: bold;
+      font-size: xx-large;
+    }
+  
+    .wtext2{
+      font-weight: bold;
+      font-size: x-large;
+      
+    }
+
+    .main {
+      display: flex;
+      height: auto;
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 20px;
+  }
+  
+  h1 {
+      margin: 10px;
+      font-size: 40px;
+      color: rgb(1, 1, 59);
+  }
+  
+  .search {
+      width: 30%;
+  }
+  
+  ul li {
+      font-size: 20px;
+  } 
+  
